@@ -1,0 +1,19 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+        width: 100px;
+        height: 100px;
+        animation-duration: 4s;
+      }
+      
+      @keyframes example {
+        0%   {background-color:rgb(165, 155, 155);}
+        25%  {background-color: rgb(239, 239, 133);}
+        50%  {background-color: rgb(42, 42, 108);}
+        100% {background-color: rgb(33, 71, 33);}
+      }
+
